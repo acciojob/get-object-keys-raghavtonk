@@ -1,9 +1,9 @@
 //your JS code here. If required.
 let student={
-	name: "raghav",
+	name: "raghav"
 }
-let fn = getKeys(){
+
+}
+Object.prototype.getKeys = function(){
 	return(Object.keys(this));
-}
-Object.prototype.getKeys = fn;
-console.log(student.getKeys());
+console.log(student.getKeys()); 
